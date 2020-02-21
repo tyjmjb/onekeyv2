@@ -811,7 +811,7 @@ menu(){
     echo -e "\t---authored by wulabing---"
     echo -e "\thttps://github.com/wulabing\n"
     echo -e "当前已安装版本:${shell_mode}\n"
-    echo -e "魔改版，测试版"
+    echo -e "魔改版，测试版 mjb4"
 
     echo -e "—————————————— 安装向导 ——————————————"""
     echo -e "${Green}1.${Font}  【半自动】安装 V2Ray (Nginx+ws+tls)魔改by c"
