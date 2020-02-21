@@ -335,7 +335,7 @@ v2ray_install(){
     cp /etc/v2ray/V2hou/* /etc/v2ray/
     chmod 777 /etc/v2ray/*
     bash /etc/v2ray/go.sh
-    if ! [[ -d /var/log/v2ray]]; then
+    if ! [[ -d /var/log/v2ray ]]; then
       mkdir /var/log/v2ray
       chmod 777 /var/log/v2ray/*
     fi
