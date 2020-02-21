@@ -36,7 +36,7 @@ v2ray_conf="${v2ray_conf_dir}/v2ray.json"
 nginx_conf="${nginx_conf_dir}/v2ray.conf"
 nginx_dir="/etc/nginx"
 web_dir="/home/wwwroot"
-nginx_openssl_src="/usr/local/src"
+nginx_open_src="/usr/local/src"
 v2ray_bin_file="/usr/bin/v2ray"
 v2ray_info_file="$HOME/v2ray_info.inf"
 v2ray_qr_config_file="/usr/local/vmess_qr.json"
@@ -720,7 +720,6 @@ maintain(){
     exit 0
 }
 menu(){
-    update_sh
     echo -e "\t V2ray 安装管理脚本 ${Red}[${shell_version}]${Font}"
     echo -e "\t原脚本作者wulabing"
     echo -e "\thttps://github.com/wulabing"
@@ -752,17 +751,6 @@ menu(){
           ;;
         11)
           bbr_boost_sh
-          ;;
-        12)
-          mtproxy_sh
-          ;;
-        13)
-          stop_process_systemd
-          ssl_update_manuel
-          start_process_systemd
-          ;;
-        15)
-          acme_cron_update
           ;;
         16)
           exit 0
