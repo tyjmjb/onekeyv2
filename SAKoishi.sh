@@ -605,7 +605,7 @@ menu(){
     echo -e "\t原脚本作者wulabing"
     echo -e "\thttps://github.com/wulabing"
     echo -e "当前已安装版本:${shell_mode}"
-    echo -e "魔改版，Subterrnean Animism(Ver 11 Koishi) 尝试使用自动nginx安装!!!"
+    echo -e "魔改版，Subterrnean Animism(Ver 11 Koishi Version) 尝试使用自动nginx安装!!!"
     echo -e "—————————————— 安装向导 ——————————————"""
     echo -e "半自动脚本删除了端口占用检测，请确认端口未被占用！！" 
     echo -e "1.【半自动】全安装 V2Ray for WHMCS (Nginx+ws+tls)"
