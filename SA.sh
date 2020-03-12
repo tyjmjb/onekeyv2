@@ -302,7 +302,7 @@ nginx_exist_check(){
     echo -e "${OK} ${GreenBG} 尝试自动安装Nginx执行！${Font}"
     yum -y install nginx
     echo -e "${OK} ${GreenBG} 尝试自动安装Nginx执行完成！${Font}"
-    if [[ -f "/etc/nginx" ]];then
+    if [[ -d "/etc/nginx" ]];then
         echo -e "${OK} ${GreenBG} Nginx已完成安装！ ${Font}"
         sleep 2
     elif [[ -d "/usr/local/nginx/" ]]
@@ -599,7 +599,7 @@ menu(){
     echo -e "\t原脚本作者wulabing"
     echo -e "\thttps://github.com/wulabing"
     echo -e "当前已安装版本:${shell_mode}"
-    echo -e "魔改版，Subterrnean Animism(Ver 11) 尝试使用自动nginx安装"
+    echo -e "魔改版，Subterrnean Animism(Ver 11) 尝试使用自动nginx安装!!!"
     echo -e "—————————————— 安装向导 ——————————————"""
     echo -e "半自动脚本删除了端口占用检测，请确认端口未被占用！！" 
     echo -e "1.【半自动】全安装 V2Ray for WHMCS (Nginx+ws+tls)"
